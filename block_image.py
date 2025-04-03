@@ -21,6 +21,7 @@ for box in boxes:
     image.paste((0, 0, 0), [x1, y1, x3, y3])  # Top-left to bottom-right
     #image.paste((0, 255, 0), [x2, y2, x4, y4])  # Top-right to bottom-left
 # Save the image
+image = image.convert('L')
 image.save('block_img/{}.png'.format(sys.argv[1]))
 # Display the image
 image.show()

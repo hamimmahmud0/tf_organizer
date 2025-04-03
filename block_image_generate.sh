@@ -6,4 +6,3 @@ do
     python block_image.py $i
     i=$((i + 1))
 done
-
