@@ -9,15 +9,11 @@ Thumbs.db
 *.swo
 
 # Dependency directories
-node_modules/
-vendor/
-bower_components/
+bin/
 
 # Build artifacts
-build/
-dist/
-*.min.js
-*.min.css
+lib/
+lib64/
 
 # Environment files
 .env
