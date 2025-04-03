@@ -30,4 +30,5 @@ npm-debug.log*
 *.tmp
 *.bak
 
+# data files
 *.npy
