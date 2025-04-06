@@ -2,6 +2,15 @@
 
 Extract questions came to previous term final exams from acquired pdf and Organizes topic wise
 
+# Setup
+
+> install python 3.10
+
+```sh
+pip install numpy==1.26.4
+pip install tensorflow==2.10.0
+```
+
 # Development Environment
 
 - Ubuntu 24.04 lts
@@ -10,6 +19,7 @@ Extract questions came to previous term final exams from acquired pdf and Organi
 - gpu gtx1650
 
 # pip packages
+
 
 |Package|Version|
 |----------------------------|-----------|
